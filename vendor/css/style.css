@@ -1,51 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Numans");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 body {
-  padding: 20px;
   margin: 0; }
 
-header .navbar-expand-lg .navbar-nav .nav-link {
-  margin-right: 1rem;
-  margin-left: 1rem; }
-  header .navbar-expand-lg .navbar-nav .nav-link i.fa-shopping-bag {
-    padding: 7px;
-    border: 1px solid #7f7f7f;
-    border-radius: 30px;
-    margin-top: -30px; }
-  header .navbar-expand-lg .navbar-nav .nav-link i.fa-search {
-    font-size: 20px; }
-  header .navbar-expand-lg .navbar-nav .nav-link i.fa-user-circle {
-    font-size: 20px; }
-header:hover {
-  color: black; }
-
-.carousel .carousel-inner {
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-  margin-top: 20px; }
-  .carousel .carousel-inner .carousel-item {
-    background-color: #c3c3c317; }
-    .carousel .carousel-inner .carousel-item img {
-      margin-top: 35px; }
-  .carousel .carousel-inner .carousel-text {
-    color: black;
-    margin-top: 60px;
-    text-align: center; }
-    .carousel .carousel-inner .carousel-text h2 {
-      font-family: 'Crimson Text', serif;
-      font-size: 35px;
-      font-weight: 500; }
-    .carousel .carousel-inner .carousel-text p {
-      font-family: 'Crimson Text', serif;
-      font-weight: 500;
+header {
+  padding: 20px; }
+  header .navbar-expand-lg .navbar-nav .nav-link {
+    margin-right: 1rem;
+    margin-left: 1rem; }
+    header .navbar-expand-lg .navbar-nav .nav-link i.fa-shopping-bag {
+      padding: 7px;
+      border: 1px solid #7f7f7f;
+      border-radius: 30px;
+      margin-top: -30px; }
+    header .navbar-expand-lg .navbar-nav .nav-link i.fa-search {
       font-size: 20px; }
-  .carousel .carousel-inner .w-100 {
-    width: 480px !important; }
-.carousel .carousel-indicators li {
-  background-color: black !important; }
+    header .navbar-expand-lg .navbar-nav .nav-link i.fa-user-circle {
+      font-size: 20px; }
+  header:hover {
+    color: black; }
+
+.carousel {
+  padding: 20px; }
+  .carousel .carousel-inner {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; }
+    .carousel .carousel-inner .carousel-item {
+      background-color: #c3c3c317; }
+      .carousel .carousel-inner .carousel-item img {
+        margin-top: 35px; }
+    .carousel .carousel-inner .carousel-text {
+      color: black;
+      margin-top: 60px;
+      text-align: center; }
+      .carousel .carousel-inner .carousel-text h2 {
+        font-family: 'Crimson Text', serif;
+        font-size: 35px;
+        font-weight: 500; }
+      .carousel .carousel-inner .carousel-text p {
+        font-family: 'Crimson Text', serif;
+        font-weight: 500;
+        font-size: 20px; }
+    .carousel .carousel-inner .w-100 {
+      width: 480px !important; }
+  .carousel .carousel-indicators li {
+    background-color: black !important; }
 
 .overlay-search {
   height: 100%;
@@ -77,5 +81,66 @@ header:hover {
     padding: 36px; }
     .overlay-search form .form-group input[type='search']:focus, .overlay-search form .form-group input[type='search']:hover {
       border-color: transparent; }
+
+/*
+====================
+Login Page
+====================
+*/
+.login-section {
+  background-image: url("../img/sale.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+  font-family: 'Numans', sans-serif; }
+  .login-section .container {
+    height: 100%;
+    align-content: center; }
+  .login-section .card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important; }
+  .login-section .social_icon span {
+    font-size: 40px;
+    margin-left: 10px;
+    color: #000;
+    margin-top: 15px; }
+  .login-section .social_icon span:hover {
+    color: #000;
+    cursor: pointer; }
+  .login-section .card-header h3 {
+    color: #000; }
+  .login-section .social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px; }
+  .login-section .input-group-prepend span {
+    width: 30px;
+    background-color: white;
+    color: black;
+    border: 0 !important; }
+  .login-section input:focus {
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important; }
+  .login-section .remember {
+    color: white; }
+  .login-section .remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px; }
+  .login-section .login_btn {
+    color: black;
+    background-color: white;
+    width: 100px; }
+  .login-section .login_btn:hover {
+    color: black;
+    background-color: white; }
+  .login-section .links {
+    color: white; }
+  .login-section .links a {
+    margin-left: 4px; }
 
 /*# sourceMappingURL=style.css.map */

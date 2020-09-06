@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Numans');
 
 *{
   margin: 0;
@@ -7,10 +8,11 @@
   box-sizing: border-box;
 }
 body{
-  padding: 20px;
   margin: 0;
 }
 header{
+  padding: 20px;
+
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-right: 1rem;
     margin-left: 1rem;
@@ -34,6 +36,8 @@ header{
 }
 
 .carousel{
+  padding: 20px;
+
   .carousel-inner{
     box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
     margin-top: 20px;
@@ -102,4 +106,96 @@ header{
       border-color: transparent;
     }
 }
+}
+
+/*
+====================
+Login Page
+====================
+*/
+.login-section{
+  background-image: url('../img/sale.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+  font-family: 'Numans', sans-serif;
+  .container{
+    height: 100%;
+    align-content: center;
+  }
+
+  .card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+  }
+
+  .social_icon span{
+    font-size: 40px;
+    margin-left: 10px;
+    color: #000;
+    margin-top: 15px;
+
+  }
+
+  .social_icon span:hover{
+    color: #000;
+    cursor: pointer;
+  }
+
+  .card-header h3{
+    color: #000;
+  }
+
+  .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+  }
+
+  .input-group-prepend span{
+    width: 30px;
+    background-color: white;
+    color: black;
+    border:0 !important;
+  }
+
+  input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+
+  }
+
+  .remember{
+    color: white;
+  }
+
+  .remember input
+  {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+
+  .login_btn{
+    color: black;
+    background-color: white;
+    width: 100px;
+  }
+
+  .login_btn:hover{
+    color: black;
+    background-color: white;
+  }
+
+  .links{
+    color: white;
+  }
+
+  .links a{
+    margin-left: 4px;
+  }
 }
