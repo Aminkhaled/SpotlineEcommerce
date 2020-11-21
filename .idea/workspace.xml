@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dfacfe2-14cc-4d57-b185-b0a483ab7daa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/img/sale.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-1-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-1-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-1-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-1-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-1-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-1-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/img-9.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/.sass-cache/b789f330001c9fccd8e262e8c3dafc4e2be7da62/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/.sass-cache/b789f330001c9fccd8e262e8c3dafc4e2be7da62/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css.map" afterDir="false" />
@@ -41,7 +57,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/img" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -64,25 +79,70 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599385033427</updated>
-      <workItem from="1599385035474" duration="16849000" />
+      <workItem from="1599385035474" duration="17756000" />
+      <workItem from="1599420081605" duration="514000" />
+      <workItem from="1599468604860" duration="4981000" />
+      <workItem from="1599475708465" duration="11577000" />
+      <workItem from="1599641822199" duration="3647000" />
+      <workItem from="1599725621970" duration="232000" />
     </task>
+    <task id="LOCAL-00001" summary="we added login page for site">
+      <created>1599405355376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599405355376</updated>
+    </task>
+    <task id="LOCAL-00002" summary="we added product-category page for site and finished index">
+      <created>1599493980593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599493980593</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="we added login page for site" />
+    <MESSAGE value="we added product-category page for site and finished index" />
+    <option name="LAST_COMMIT_MESSAGE" value="we added product-category page for site and finished index" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599400705311">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599400705311" />
+    <state x="282" y="0" key="CommitChangelistDialog2" timestamp="1599493978060">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="282" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599493978060" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1599478975353">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1599478975353" />
     <state x="352" y="142" key="EditFileWatcherDialog" timestamp="1599385171420">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="352" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1599385171420" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1599642444659">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599642444659" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1599385173310">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599385173310" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599493983004">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599493983004" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599471347795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599471347795" />
   </component>
 </project>
